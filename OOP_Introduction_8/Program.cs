@@ -13,7 +13,7 @@ namespace OOP_Introduction
                 firstName = "John",
                 lastName = "Doe"
             };
-
+            // Console.WriteLine("Hi");
 
             // after fixing access permissions
             Debug.WriteLine(Student.firstName);

@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>OPP_Introduction_7._0</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>OOP_Introduction_8</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
