@@ -38,6 +38,7 @@ namespace OOP_Introduction
         /// <param name="lname">last name of the person</param>
         public Person(string lname)
         {
+            firstName = "";
             lastName = lname;
         }
     }

@@ -10,16 +10,20 @@ namespace OOP_Introduction
             // initial access attempt
             Person Student = new Person
             {
-                firstName = "John",
-                lastName = "Doe"
+                firstName = "Kseniia",
+                lastName = "Biriukova"
             };
             // Console.WriteLine("Hi");
 
             // after fixing access permissions
-            Debug.WriteLine(Student.firstName);
+            Debug.WriteLine("Hi! My name is below:");
+            Debug.WriteLine(Student.getName());
 
             // using the constructor
+            // default constructor - empty, but still need to define
+            // same name in a Class
             Person Teacher = new Person();
+            // avoid nulls at all costs
             Person Manager = new Person("Jane");
 
             // passing by value
